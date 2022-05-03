@@ -1,0 +1,41 @@
+.navbar {
+  border-bottom: 1px solid grey;
+}
+.navbar-container {
+  width: 100%;
+}
+.navbar-logo img {
+  height: 2.8rem;
+  width: 7rem;
+}
+
+.navbar-icons {
+  float: right;
+}
+
+.navbar-icons-list {
+  list-style: none;
+}
+
+.navbar-icons-item2 {
+  font-size: 1.8rem;
+}
+
+.navbar-icons-item2 {
+  font-size: 2.2rem;
+  color: grey;
+  background-color: rgba(193, 180, 180, 0.641);
+  border-radius: 50%;
+}
+
+.navbar-icons-item1:hover,
+.navbar-icons-item2:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 576px){
+  .navbar-icons {
+    display: none;
+  }
+}
+  
